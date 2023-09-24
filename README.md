@@ -20,5 +20,5 @@ Python code from Alura training paths and courses.
 Learn Python Programming through Object-Oriented Programming Concepts
 ##### Python: começando com a linguagem
 Python: starting the language
-* [_adivinhacao.py_](studyingpython/alura/adivinhacao.py)
+* [_adivinhacao.py_](/alura/adivinhacao.py)
   Exercise #1. Compares a set int variable to an user input.
