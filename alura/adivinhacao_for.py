@@ -1,12 +1,11 @@
-#jogo de adivinhação de número usando o loop while
+#jogo de adivinhação de número usando o loop for
 
 print("*********************************\nBem vindo ao jogo de adivinhação!\n*********************************")
 
 numero_secreto = 42
 total_tentativas = 3
-rodada = 1
 
-while rodada <= total_tentativas:
+for rodada in range(1,total_tentativas+1):
     print(f"Tentativa {rodada} de {total_tentativas}.")
     chute_str = input("Digite o seu número:")
     print("Você digitou: ", chute_str)
@@ -19,7 +18,5 @@ while rodada <= total_tentativas:
             print("Você errou! O seu chute foi maior do que o número secreto.")
         elif chute < numero_secreto:
             print("Você errou! O seu chute foi menor do que o número secreto.")
-
-    rodada = rodada + 1
 
 print("Fim do jogo.")
