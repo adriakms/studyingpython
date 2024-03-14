@@ -1,7 +1,7 @@
 #jogo de adivinhação de número usando o loop for
 import random
 
-def (jogar_adivinhacao):
+def jogar_adivinhacao():
     print("*********************************\nBem vindo ao jogo de adivinhação!\n*********************************")
 
     numero_secreto = random.randrange(1,101)
