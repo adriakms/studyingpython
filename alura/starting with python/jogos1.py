@@ -1,4 +1,4 @@
-import forca
+import studyingpython.alura.forca1 as forca1
 import adivinhacao
 
 def escolhe_jogo():
@@ -12,7 +12,7 @@ def escolhe_jogo():
 
     if(jogo == 1):
         print("Jogando forca")
-        forca.jogar()
+        forca1.jogar()
     elif(jogo == 2):
         print("Jogando adivinhação")
         adivinhacao.jogar()
